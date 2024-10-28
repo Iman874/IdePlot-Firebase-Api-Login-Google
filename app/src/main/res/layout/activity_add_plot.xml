@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            tools:ignore="UselessLeaf">
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TambahPlot"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+        <!-- Input for Plot Name -->
+        <Spinner
+            android:id="@+id/spinnerPlotLength"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/plot_lengths" />
+
+        <EditText
+            android:id="@+id/editTextPlotName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:hint="@string/NamaPlot" />
+
+        <!-- Input for Plot Description -->
+        <EditText
+            android:id="@+id/editTextPlotDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:hint="@string/DeskripisiPlot"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            tools:ignore="TextContrastCheck" />
+
+        <!-- Input for Poin-poin plot -->
+        <EditText
+            android:id="@+id/editTextImportantPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:hint="@string/PointPentingPlot"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:textColorHint="#546E7A" />
+
+        <!-- Button to Save Plot -->
+        <Button
+            android:id="@+id/btnSavePlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="@string/SimpanPlot" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

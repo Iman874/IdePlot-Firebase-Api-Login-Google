@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">IdePlot</string>
+    <string name="plot_name">Plot Name</string>
+    <string name="plot_description">Plot Description</string>
+    <string name="important_points">Important Points</string>
+    <string name="save_plot">Save Plot</string>
+    <string name="add_a_new_plot">Add a New Plot</string>
+    <string name="add_plot">Add Plot</string>
+    <string name="view_plots">View Plots</string>
+    <string name="TambahPlot">Tambah Plot Baru</string>
+    <string name="DeskripisiPlot">Deskripsi Plot</string>
+    <string name="NamaPlot">Nama Plot</string>
+    <string name="PointPentingPlot">Poin Penting Plot</string>
+    <string name="SimpanPlot">Simpan Plot</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="NamaDepan">Nama Depan\t\t</string>
+    <string name="NamaBelakang">Nama Belakang</string>
+    <string name="Daftar">DAFTAR KE IDEPLOT</string>
+    <string name="Google">Google</string>
+    <string name="daftarDenganGoogle">Atau daftar dengan</string>
+    <string name="idePlot">IDEA PLOT</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="DaftarLogin">Daftar/Login</string>
+    <string name="NamaUser">Selamat Datang Guest</string>
+
+
+    <string name="default_web_client_id">922977622414-eacsg65cubesst090179nb583ldeebv8.apps.googleusercontent.com</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="plot_lengths">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+</resources>

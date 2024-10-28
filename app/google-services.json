@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "922977622414",
+    "project_id": "ideplot",
+    "storage_bucket": "ideplot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922977622414:android:be1c120f7b13a8026decdf",
+        "android_client_info": {
+          "package_name": "com.example.ideplot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922977622414-7kir87vk6gdtpsov66s5bjjr410rnn6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ideplot",
+            "certificate_hash": "fd30c32e3eb13ff3844e52d64c7e7028845a3121"
+          }
+        },
+        {
+          "client_id": "922977622414-eacsg65cubesst090179nb583ldeebv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDJQ3npcKOC3QGND1BXjxPBanv6B_p14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922977622414-eacsg65cubesst090179nb583ldeebv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
