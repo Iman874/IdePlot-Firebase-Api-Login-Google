@@ -11,3 +11,5 @@ Pada menu ketiga ada menu daftar, pengguna harus mengisi nama depan, nama belaka
 
 Untuk fitur daftar dengan akun google, pengguna akan memilih akun google yang telah login di hp pengguna, setelah pendaftaran berhasil, maka aplikasi akan mengambil nama depan, dan email kemudian menampilkan pesan berhasil dan kembali ke halaman utama, dan juga nama depan akan dipakai pada kata kata “Selamat dating, <nama pengguna>”
 
+Dokumentasi laporan : 
+Dokumentasi Video Tes Run aplikasi :
